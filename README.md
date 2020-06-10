@@ -69,11 +69,11 @@ This project was built using these technologies.
 
 Clone the repository and follow the steps.
 
-$ git clone git@github.com:adamclasic/re-former.git
-$ cd into the folder
-$ bundle install
-$ rails console
-play around with different commands to see it in action
+- $ git clone git@github.com:adamclasic/re-former.git
+- $ cd into the folder
+- $ bundle install
+- $ rails server
+- fill out the form and play around with the project
 
 <!-- CONTACT -->
 ## Authors
