@@ -1,5 +1,8 @@
 <h1> Users </h1>
-<!--<form action="/users" method="post">
+<!--
+HTML FORM
+
+<form action="/users" method="post">
 <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
   <label for="username">username:</label>
   <input type="text" id="username" name="user[username]"><br><br>
@@ -10,6 +13,8 @@
   <input type="submit" value="create">
 </form>
 
+RAILSY FORM
+
 <%= form_tag('/users') do %>
     <%= label_tag 'username' %>
     <%= text_field_tag 'username'%>
@@ -19,7 +24,10 @@
     <%= password_field_tag 'password'%>
     <%= submit_tag 'submit'%>
 
-<% end %>-->
+<% end %>
+
+RAILSY-ER FORM
+-->
 
 <%= form_for @user do |f| %>
     <%= f.label :username %>
@@ -29,6 +37,4 @@
     <%= f.label :password %>
     <%= f.password_field :password, placeholer: 'password' %><br><br>
     <%= f.submit 'submit' %>
-
-
 <% end %>
