@@ -1,3 +1,6 @@
 <h1>
 <%= @user.username%>
 </h1>
+
+<%= link_to 'Edit this user', edit_user_path(@user) %>
+<%= link_to 'Cancel and return home', root_path %>
