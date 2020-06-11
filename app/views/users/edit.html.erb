@@ -1,0 +1,12 @@
+
+<%= form_for @user do |f| %>
+    <%= f.label :username %>
+    <%= f.text_field :username, placeholer: 'username' %><br><br>
+    <%= f.label :email %>
+    <%= f.text_field :email, placeholer: 'email' %><br><br>
+    <%= f.label :password %>
+    <%= f.password_field :password, placeholer: 'password' %><br><br>
+    <%= f.submit 'Edit' %>
+<% end %>
+<%= link_to 'Cancel and return to user', user_path(@user) %>
+<%= link_to 'Cancel and return home', root_path %>
