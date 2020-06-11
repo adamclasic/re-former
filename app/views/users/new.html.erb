@@ -15,7 +15,7 @@ HTML FORM
 
 RAILSY FORM
 
-<%= form_tag('/users') do %>
+<%= form_tag(users_path) do |f|%>
     <%= label_tag 'username' %>
     <%= text_field_tag 'username'%>
     <%= label_tag 'email' %>
