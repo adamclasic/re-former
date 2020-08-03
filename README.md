@@ -24,7 +24,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/adamclasic/re-former">
-    <img src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/5726/s300/icon-white-on-murple-copy.png" alt="Logo" width="80" height="80">
+    <img src="app/images/rails.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">re-former</h3>
@@ -91,7 +91,7 @@ Clone the repository and follow the steps.
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
-* [Microverse](https://www.microverse.org/)
+* [Odin Project](https://www.theodinproject.com/)
 * [Ruby on Rails Documentation](https://api.rubyonrails.org)
 
 ## Show your support
