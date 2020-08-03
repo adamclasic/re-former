@@ -24,7 +24,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/adamclasic/re-former">
-    <img src="/app/images/rails.png" alt="Logo" width="80" height="80">
+    <img src="app/assets/images/rails.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">re-former</h3>
